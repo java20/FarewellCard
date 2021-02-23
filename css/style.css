@@ -1,0 +1,77 @@
+/* *{
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	animation: gradient 15s ease infinite;
+} */
+
+@import url(https://fonts.googleapis.com/css?family=Nobile:400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+
+body{
+	overflow:hidden;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#mainpage{
+	text-align: center;
+	font-family: 'Nobile', sans-serif;
+    font-style: italic;
+	text-align: justify;
+    text-shadow: 
+        4px 4px 0px rgba(0, 0, 0, .15),
+        1px 1px 0 rgba(255, 200, 200, 255),
+        2px 2px 0 rgba(255, 150, 150, 255),
+        3px 3px 0 rgba(255, 125, 125, 255);
+    color: white;
+}
+
+#card .contentpage.page{
+	background-color: white;
+	font-family: "Sofia", sans-serif;
+}
+
+
+#mainpage{
+	background-color: #FF5555;
+	background-image: linear-gradient(top, #FF5555 0%, #FF7777 50%);
+	transform-origin: left;
+	-moz-transform-origin: left;
+ -webkit-transform-origin: left;
+		 transition:         transform 1s linear;
+	-moz-transition:    -moz-transform 1s linear;
+ -webkit-transition: -webkit-transform 1s linear;
+ position: relative;
+	/* background-color:white; */
+}
+
+#card .shadow,
+#card.shadow{
+  -webkit-box-shadow: 0 4px 10px #666;
+  -moz-box-shadow: 0 4px 10px #666;
+  -ms-box-shadow: 0 4px 10px #666;
+  -o-box-shadow: 0 4px 10px #666;
+  box-shadow: 0 4px 10px #666;
+}
+
+#card .turn-page{
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+
+#card div{
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
