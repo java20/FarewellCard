@@ -43,7 +43,7 @@ body{
 }
 
 
-#mainpage{
+#mainpage,#lastpage{
 	background-color: #FF5555;
 	background-image: linear-gradient(top, #FF5555 0%, #FF7777 50%);
 	transform-origin: left;
