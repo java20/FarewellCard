@@ -18,7 +18,7 @@
         <div class="hard" id="mainpage">
             <h1>Farewell Card</h1>
         </div>
-        <div class="hard contentpage">
+        <div class="hard contentpage" id="harsh">
             <img src="images/harsh/img1.jpg" style="width:80%;height:40%;margin-top:50%;margin-left:5%"  alt="img1">
         </div>
         <div class="hard contentpage">
@@ -26,37 +26,37 @@
             </p>
             <p style="padding-top:2%;text-align:right;">-By Harsh Shah</p>
         </div>
-        <div class="hard contentpage">
+        <div class="hard contentpage" id="vinayak">
             <p class="font-effect-neon" style="padding-left: 5%;padding-right:5%;">It was great learning for you. Our favourite teacher. Thank you for always encouraging and supporting us. Your teachings will forever reside in our hearts. Thank you for everything.
             </p>
             <p style="padding-top:2%;text-align:right;">-By Vinayak Tupe</p>
         </div>
-        <div class="hard contentpage">
+        <div class="hard contentpage" id="juveriya">
             <img src="images/juveriya/img1.jpg" style="width:90%;height:40%;margin-top:50%;"  alt="img1">
             <p style="padding-top:2%;text-align:right;">-By Juveriya Nadaf</p>
         </div>
-        <div class="hard contentpage">
+        <div class="hard contentpage" id='insharah'>
             <img src="images/insharah/img1.jpg" style="width:100%;height:50%;margin-top:50%;"  alt="img1">
             <p style="padding-top:2%;text-align:right;">-By Insharah Shaikh</p>
         </div>
-        <div class="hard contentpage">
+        <div class="hard contentpage" id='priyanka'>
             <img src="images/priyanka/img1.jpg" style="width:100%;height:50%;margin-top:50%;"  alt="img1">
             <p style="padding-top:2%;text-align:right;">-By Priyanka Hallale</p>
         </div>
-        <div class="hard contentpage">
+        <div class="hard contentpage" id='roshani'>
             <p class="font-effect-neon" style="padding-left: 5%;padding-right:5%;">I must say that words shall forever be insufficient to express how extremely grateful we are to be blessed with the opportunity to be counted among your students. Ma’am, I wish you the very best in this life as you leave to pursue other great opportunities in life. Thank you for being the best.
             </p>
         </div>
         <div class="hard contentpage">
-            <img src="images//roshni/img1.JPG" style="width:90%;height:40%;margin-top:50%;"  alt="img1">
+            <img src="images/roshni/img1.JPG" style="width:90%;height:40%;margin-top:50%;"  alt="img1">
             <p style="padding-top:2%;text-align:right;">-By Roshani Kale</p>
         </div>
-        <div class="hard contentpage">
+        <div class="hard contentpage" id='tejaswini'>
             <img src="images/Tejaswini/img1.jpg" style="width:90%;height:30%;margin-top:0%;"  alt="img1">
             <img src="images/Tejaswini/img2.png" style="width:90%;height:50%;margin-top:1%;"  alt="img1">
             <p style="padding-top:2%;text-align:right;">-By Tejaswini Nikam</p>
         </div>
-        <div class="hard contentpage">
+        <div class="hard contentpage" id='sneha'>
             <p class="font-effect-neon" style="padding-left: 5%;padding-right:5%;"><div class="hard contentpage">
                 <p class="font-effect-neon" style="font-size: 14px;padding-left: 5%;padding-right:5%;">Mam I remember that 1st day of practical when my confidence was too low in programming. But your kind words help me at that time to perform well. You build my confidence. And you always support me in my hard time. I will really miss your kind words, support , guidance and your care for me. Thank you so much for all your support and guidance.
                 </p>
@@ -64,18 +64,41 @@
             </div>
             </p>
         </div>
-        <div class="hard contentpage">
-            <video width="170" height="240" controls autoplay>
+        <div class="hard contentpage" id='azhar'>
+            <video width="170" height="240" controls>
                 <source src='./images/Azar/vid1.mp4'>
             </video>
             <p style="padding-top:2%;text-align:right;">-By Azhar Hakim</p>
         </div>
+        <div class="hard contentpage">
+            <img src="images/pooja/img1.jpg" style="width:90%;height:60%;margin-top:30%;"  alt="img1">
+            <p style="padding-top:2%;text-align:right;">-By Pooja Tilekar</p>
+        </div>
+        <div class="hard contentpage">
+            <img src="images/priya/img1.jpg" style="width:100%;height:35%;margin-top:50%;"  alt="img1">
+            <p style="padding-top:2%;text-align:right;">-By Priya Jadhav</p>
+        </div>
+        <div class="hard contentpage">
+            <img src="images/Amit/img1.jpeg" style="width:95%;height:50%;margin-top:50%;"  alt="img1">
+            <p style="padding-top:2%;text-align:right;">-By Amit Rathod</p>
+        </div>
         <div class="hard" id="lastpage">
-            <h1></h1>
+            <h1 id="threed">
+                <span data-z>Will</span>
+                <br />
+                <span data-z>Miss</span>
+                <br />
+                  <span data-z>'Baccho'</span>
+                <br />
+                <span data-z>word</span>
+            </h1>
+            <a href="https://www.linkedin.com/in/harsh-shah-485992157/"><h5 style="padding-top:80%;text-align:right;">-Created by Harsh J Shah</h5></a>
         </div>
     </div>
+    <script type='text/javascript' src="https://bennettfeely.com/ztext/js/ztext.min.js"></script>
 </body>
 <script type="text/javascript">
+
     $('#card').turn({
         width: 350,
         height: 400,
@@ -84,6 +107,10 @@
         gradients: true,
         acceleration: true
     });
+    function fun(a){
+        for(i=0;i<1;i++)
+            $("#card").turn("next");
+    }
 </script>
 
 </html>

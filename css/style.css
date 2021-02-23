@@ -75,3 +75,20 @@ body{
 	background-size: cover;
 	background-position: center center;
 }
+
+#threed{
+	font: bold 40 "Georgia", serif;
+	margin: 30px;
+	color: white;
+}
+
+.z-text {
+	/* Tip: Apply CSS transforms here */
+	/* rotateX() == up/down */
+	/* rotateY() == left/right */
+	transform: rotateX(15deg) rotateY(-30deg);
+}
+
+.z-layer:not(:first-child) {
+	color: #455a64;
+}
